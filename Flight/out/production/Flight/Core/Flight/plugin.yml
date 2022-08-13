@@ -1,0 +1,9 @@
+name: Flight
+author: Core
+version: 1.0
+main: Core.Flight.Main
+
+commands:
+  Fly:
+    aliases: fly
+    description: allows user to fly
