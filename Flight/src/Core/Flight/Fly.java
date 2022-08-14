@@ -17,7 +17,8 @@ public class Fly implements CommandExecutor {
             return false;
         }
 
-        }
+        Player player = (Player) commandSender;
+
         // Gives Player Flight Permissions
         if (!player.getAllowFlight()) {
             player.setAllowFlight(true);
