@@ -17,11 +17,6 @@ public class Fly implements CommandExecutor {
             return false;
         }
 
-        // This permission is disabled but basically if you dont have "Flight Permission" this will be returned
-        Player player = (Player) commandSender;
-        if (!player.hasPermission("Flight")) {
-            player.sendMessage(Util.Color(ChatColor.RED + " You don't have permission"));
-            return false;
         }
         // Gives Player Flight Permissions
         if (!player.getAllowFlight()) {
